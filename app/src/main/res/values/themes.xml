@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.VehicleApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="colorOnPrimary">@color/textColorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/textColorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="colorSurface">@color/backgroundColorSecondary</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="buttonStyle">@style/Widget.Button.Primary</item>
+    </style>
+
+    <!-- No ActionBar Theme -->
+    <style name="Theme.VehicleApp.Light.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorOnPrimary">@color/textColorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/textColorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="colorSurface">@color/backgroundColorSecondary</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="buttonStyle">@style/Widget.Button.Primary</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="Widget.Button.Primary" parent="Widget.MaterialComponents.Button">
+
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.Button.Accent" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColorAccent</item>
+    </style>
+
+</resources>
