@@ -46,7 +46,6 @@
         android:background="@drawable/white_bg"
         android:text="Next"
         android:textColor="@color/textColorPrimary"
-
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

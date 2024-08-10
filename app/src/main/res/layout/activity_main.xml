@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.theme.MainActivity">
+    android:background="@color/colorPrimaryLight">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -38,26 +38,25 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:layout_marginTop="36dp"
-                    android:text="hgch"
+                    android:text="John Brade"
                     app:layout_constraintStart_toEndOf="@+id/imageView"
-                    app:layout_constraintTop_toTopOf="parent"
-
                     app:layout_constraintTop_toBottomOf="@+id/textView7"
-                    app:layout_constraintVertical_bias="0.477"
+
+                    app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="MissingConstraints,NotSibling" />
 
                 <TextView
                     android:id="@+id/textView8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="36dp"
+                    android:layout_marginBottom="28dp"
                     android:text="Test user"
                     android:textStyle="bold"
                     app:layout_constraintBaseline_toBottomOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/textView7"
                     app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="@+id/textView7"/>
+                    app:layout_constraintStart_toStartOf="@+id/textView7" />
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -71,31 +70,66 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_width="363dp"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+
+                android:background="@drawable/rounded_button">
 
                 <EditText
                     android:id="@+id/editTextText5"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:drawablePadding="8dp"
                     android:ems="10"
+                    android:hint="Search Vehicle ..."
                     android:inputType="text"
-                    android:text="Name"
-                    tools:layout_editor_absoluteX="16dp"
-                    tools:layout_editor_absoluteY="2dp"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:background="@drawable/rounded_button"
+                    android:drawableStart="@drawable/search_icon"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
                     tools:ignore="MissingConstraints" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_marginEnd="16dp"
                     android:background="@drawable/black_oval_bg"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/settings" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

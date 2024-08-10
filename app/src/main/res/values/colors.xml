@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary Colors -->
-    <color name="colorPrimaryLight">#003F6C</color> <!-- Darker Blue -->
+    <color name="colorPrimaryLight">#CDE0ED</color> <!-- Darker Blue -->
 
     <!-- Secondary Colors -->
     <color name="colorSecondary">#F5F5F5</color>
@@ -9,19 +9,19 @@
     <color name="colorSecondaryLight">#FFFFFF</color>
 
     <!-- Accent Colors -->
-    <color name="colorAccent">#FF9800</color>
+    <color name="colorAccent">#2599CE</color>
 
     <!-- Text Colors -->
-    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorPrimary">#333333</color>
     <color name="textColorSecondary">#212121</color>
     <color name="textColorAccent">#FF9800</color>
 
     <!-- Background Colors -->
-    <color name="backgroundColorprimary">#DEDEDE</color>
+    <color name="backgroundColorprimary">#929292</color>
     <color name="backgroundColorSecondary">#F5F5F5</color>
 
     <!-- Button Colors -->
     <color name="buttonTextColorPrimary">#FFFFFF</color>
-    <color name="buttonColorAccent">#FF9800</color>
+    <color name="buttonColorAccent">#2599CE</color>
     <color name="buttonTextColorAccent">#FFFFFF</color>
 </resources>
