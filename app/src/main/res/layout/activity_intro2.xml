@@ -8,12 +8,12 @@
     android:background="@color/colorPrimaryLight"
     tools:context=".introActivity2">
 
-    <TextView
+   <TextView
     android:id="@+id/textView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="44dp"
-    android:text="Sell your car quickly"
+    android:text="@string/text_view_title_quickly"
     android:textColor="@color/textColorPrimary"
     android:textSize="48sp"
     android:textStyle="bold"
@@ -29,13 +29,12 @@
     android:layout_marginTop="20dp"
     android:layout_marginEnd="24dp"
     android:lineSpacingExtra="8sp"
-    android:text="Find buyers in no time and close the deal with ease. Everything you need to sell your car is right here."
+    android:text="@string/text_view_subtitle_quickly"
     android:textColor="@color/textColorPrimary"
     android:textSize="16sp"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@id/textView" />
-
 
 
     <ImageView

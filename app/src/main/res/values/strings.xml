@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">vehicleapp</string>
+    <string name="app_name">Auto Trade</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="text_view_title">Easy way to Sell your car</string>
+    <string name="text_view_subtitle">Get the best value for your vehicle with ease. List your car, connect with buyers, and close the deal quickly—all from the comfort of your app.</string>
+    <string name="text_view_title_quickly">Sell your car quickly</string>
+    <string name="text_view_title_started">Let's Get Started</string>
+    <string name="text_view_description_started">Get ready to explore our app and discover all the features that make selling your car easy and efficient. Let's get started!</string>
+    <string name="text_view_subtitle_quickly">Find buyers in no time and close the deal with ease. Everything you need to sell your car is right here.</string>
 </resources>

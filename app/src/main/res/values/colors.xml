@@ -24,4 +24,8 @@
     <color name="buttonTextColorPrimary">#FFFFFF</color>
     <color name="buttonColorAccent">#2599CE</color>
     <color name="buttonTextColorAccent">#FFFFFF</color>
+
+    <color name="colorPressed">#D1C4E9</color> <!-- Light purple -->
+    <color name="colorSelected">#B3E5FC</color> <!-- Light blue -->
+
 </resources>
