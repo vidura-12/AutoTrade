@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- State when the item is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorPressed" /> <!-- Light purple when pressed -->
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- State when the item is checked or selected -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorSelected" /> <!-- Light blue when selected -->
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/buttonColorAccent" />
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
 </selector>

@@ -8,33 +8,34 @@
     android:background="@color/colorPrimaryLight"
     tools:context=".introActivity3">
 
-    <TextView
-        android:id="@+id/textViewTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="48dp"
-        android:text="Let's Get Started"
-        android:textColor="@color/textColorPrimary"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+   <TextView
+    android:id="@+id/textViewTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="48dp"
+    android:text="@string/text_view_title_started"
+    android:textColor="@color/textColorPrimary"
+    android:textSize="48sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textViewDescription"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:text="Get ready to explore our app and discover all the features that make selling your car easy and efficient. Let's get started!"
-        android:textColor="@color/textColorPrimary"
-        android:layout_marginTop="24dp"
-        android:lineSpacingExtra="8sp"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+<TextView
+    android:id="@+id/textViewDescription"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:text="@string/text_view_description_started"
+    android:textColor="@color/textColorPrimary"
+    android:layout_marginTop="24dp"
+    android:lineSpacingExtra="8sp"
+    android:textSize="16sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
 
     <ImageView
         android:id="@+id/imageView2"
