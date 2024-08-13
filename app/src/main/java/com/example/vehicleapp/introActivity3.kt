@@ -24,7 +24,7 @@ class introActivity3 : AppCompatActivity() {
         val btn: Button = findViewById(R.id.start3)
         btn.setOnClickListener {
             // Create an Intent to start introActivity3
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Signin::class.java)
             startActivity(intent)
         }
     }

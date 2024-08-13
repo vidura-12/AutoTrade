@@ -2,6 +2,7 @@ package com.example.vehicleapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -9,24 +10,16 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class DetailActivity : AppCompatActivity() {
+class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         enableEdgeToEdge()
-        setContentView(R.layout.activity_detail)
+        setContentView(R.layout.activity_profile)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
-
-        val imageView = findViewById<ImageView>(R.id.imageView5)
-        imageView.setOnClickListener {
-            // Intent to navigate to MainActivity
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
         }
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
@@ -39,12 +32,23 @@ class DetailActivity : AppCompatActivity() {
                     true
                 }
                 R.id.navigation_profile -> {
-                    val intent = Intent(this, ProfileActivity::class.java)
-                    startActivity(intent)
+                    // Stay in ProfileActivity
                     true
                 }
                 else -> false
             }
+        }
+        val btn: Button = findViewById(R.id.logout)
+        btn.setOnClickListener {
+            // Navigate to introActivity2 when the button is clicked
+            val intent = Intent(this, Signin::class.java)
+            startActivity(intent)
+        }
+        val btn1  = findViewById<ImageView>(R.id.imageView11)
+        btn1.setOnClickListener {
+            // Navigate to introActivity2 when the button is clicked
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 }

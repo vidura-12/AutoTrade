@@ -17,7 +17,7 @@
     <color name="textColorAccent">#FF9800</color>
 
     <!-- Background Colors -->
-    <color name="backgroundColorprimary">#D9D9D9</color>
+    <color name="backgroundColorprimary">#CDE0ED</color>
     <color name="backgroundColorSecondary">#F5F5F5</color>
 
     <!-- Button Colors -->
@@ -25,7 +25,8 @@
     <color name="buttonColorAccent">#2599CE</color>
     <color name="buttonTextColorAccent">#FFFFFF</color>
 
-    <color name="colorPressed">#D1C4E9</color> <!-- Light purple -->
+    <color name="colorPressed">#607383</color> <!-- Light purple -->
     <color name="colorSelected">#B3E5FC</color> <!-- Light blue -->
+    <color name="red">#9D2727</color>
 
 </resources>

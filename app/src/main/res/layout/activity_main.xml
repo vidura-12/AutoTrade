@@ -204,13 +204,25 @@ android:textColor="@color/textColorSecondary"
 
                 <ImageView
                     android:id="@+id/imageView098"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginTop="32dp"
+                    android:layout_width="193dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="28dp"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView3"
-                    app:srcCompat="@drawable/intro_car"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="0dp" />
+                    app:srcCompat="@drawable/temp"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView0981"
+                    android:layout_width="193dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="208dp"
+                    android:layout_marginTop="28dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    app:srcCompat="@drawable/temp1"
+                    tools:ignore="MissingConstraints" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -228,6 +240,7 @@ android:textColor="@color/textColorSecondary"
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:background="@drawable/black_bg"
