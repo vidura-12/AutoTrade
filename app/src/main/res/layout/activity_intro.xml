@@ -7,7 +7,7 @@
     android:background="@color/colorPrimaryLight"
     tools:context=".introActivity">
 
-<TextView
+    <TextView
     android:id="@+id/textView"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
@@ -56,10 +56,10 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="312dp"
-        android:layout_height="229dp"
+        android:layout_width="412dp"
+        android:layout_height="406dp"
         android:layout_marginTop="48dp"
-        android:src="@drawable/intro_car"
+        android:src="@drawable/_kw6rqc2npakyubnrnsfluq9xqk"
         app:layout_constraintBottom_toTopOf="@+id/start"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
