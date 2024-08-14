@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary Colors -->
-    <color name="colorPrimaryLight">#CDE0ED</color> <!-- Darker Blue -->
+    <color name="colorPrimaryLight">#CDE0ED</color>
 
     <!-- Secondary Colors -->
     <color name="colorSecondary">#F5F5F5</color>
@@ -25,8 +25,8 @@
     <color name="buttonColorAccent">#2599CE</color>
     <color name="buttonTextColorAccent">#FFFFFF</color>
 
-    <color name="colorPressed">#607383</color> <!-- Light purple -->
-    <color name="colorSelected">#B3E5FC</color> <!-- Light blue -->
+    <color name="colorPressed">#607383</color>
+    <color name="colorSelected">#B3E5FC</color>
     <color name="red">#9D2727</color>
 
 </resources>
