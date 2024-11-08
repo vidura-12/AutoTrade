@@ -1,6 +1,6 @@
 Here's a sample `README.md` file for your Android project named **AutoTrade**, a vehicle buying and selling app. This file includes project setup instructions, features, and relevant details.
 
-```markdown
+
 # AutoTrade
 
 AutoTrade is an Android application that facilitates the buying and selling of vehicles. Users can browse listings, post their own vehicles for sale, and connect with potential buyers and sellers. The app is built using Kotlin in Android Studio.
